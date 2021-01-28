@@ -63,6 +63,54 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Subscriber */
+
+.area-subscriber {
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 180px;
+    margin-left: 260px;
+    width: 300px;
+}
+
+.img-twitter img {
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size:30 px;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.subtitle h6 {
+    font-size: 12px;
+}
+
+.buttons-subscriber {
+    margin-top: 15px;
+}
+
+.buttons-subscriber button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    color: #1DA1F2;
+    background-color: #000;
+    border: 1px solid #1DA1F2;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#subscriber {
+    color: #FFF;
+    background-color: #1DA1F2;
+}
+
 /* Footer */
 
 footer {
