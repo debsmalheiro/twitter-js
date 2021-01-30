@@ -6,14 +6,13 @@
 
 .container {
     display: flex;
-    width: 33.333%; 
-    height: 150px
+    float: left;
 }
 
 /* LEFT */
 
 .left {
-    background-color: green;
+    float: left;
 }
 
 .image {
@@ -23,15 +22,21 @@
     color: #FFF;
 }
 
+.options-left {
+    display: flex;
+    width: auto;
+}
+
 a {
     display: flex;
     margin: 15px;
     text-decoration: none;
 }
 
-a:hover {
+a:hover, h6:hover, .options-left:hover {
     border-radius: 20px;
-    background-color: #1DA1F2;
+    background-color: #031019;
+    color: #1DA1F2;
 }
 
 h6 {
@@ -63,8 +68,8 @@ h6 {
 }
 
 .photo {
-    width: 50px;
-    height: 50px;
+    width: 39px;
+    height: 39px;
     background-color: #FFF;
     border-radius: 50px;
 }
@@ -88,12 +93,137 @@ h6 {
 /* MIDDLE */
 
 .middle {
-    background-color: yellow;
+    color: #FFF;
+    float: left;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    height: 100vh;
 }
+
+.top {
+    border-bottom: 1px solid #CCC;
+    padding: 15px;
+    display: flex;
+}
+
+.top h1 {
+    font-size: 19px;
+    margin-right: 350px;
+}
+
+.tweete {
+    display: block;
+}
+
+div #firts-line {
+    display: flex;
+    margin-top: 10px;
+}
+
+div #firts-line a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+div #firts-line input {
+    border: none;
+    background-color:transparent;
+    width: 90%;
+    outline: none;
+    color: #FFF;
+    font-size: 19px;
+}
+
+div #second-line {
+    display: flex;
+    margin-top: 10px;
+}
+
+div #second-line a {
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+div #second-line button {
+    width: 100px;
+    padding: 5px 10px;
+    color: #FFF;
+    border: none;
+    background-color: #1DA1F2;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 20px;
+    height: 10px;
+    background-color: #15181C;
+}
+
+.tweets {
+    margin: 15px;
+    display: block;
+}
+
+.tweet1 {
+    display: flex;
+}
+
+.photo-id {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin-right: 10px;
+}
+
+.header-tweet {
+    display: flex;
+    margin-top: 10px;
+}
+
+.name-tweet {
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.user-tweet {
+    font-size: 15px;
+    margin-right: 8px;
+    color: #6E767D;
+}
+
+.time-tweet {
+    font-size: 15px;
+    color: #6E767D;
+}
+
+.content-tweet {
+    margin-top: 10px;
+    color: #D9D9D9;
+}
+
+.actions-tweet {
+    float: left;
+}
+
+.options-tweet {
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+
+
+
 
 /* RIGHT */
 
 .right { 
+    float: left;
     background-color: pink;
 }
 
